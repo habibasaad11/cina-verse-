@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CINEMA+ . Series</title>
+
+    <link rel="stylesheet" href="series.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar">
+
+        <h1 class="logo">
+            CINEMA<span>+</span>
+        </h1>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="movie.html">Movies</a>
+            <a href="series.html" class="active">Series</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+    </nav>
+
+
+    <header class="series-header">
+
+        <p class="small-title">CINEMA+ COLLECTION</p>
+
+        <h2>Popular Series</h2>
+
+        <p>
+            Discover the best foreign, horror, action and drama series.
+        </p>
+
+    </header>
+
+
+    <section class="search-section">
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search for a series..."
+            >
+
+            <button id="searchBtn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="genres">
+
+        <button class="genre active" data-genre="All">
+            All
+        </button>
+
+        <button class="genre" data-genre="Drama">
+            Drama
+        </button>
+
+        <button class="genre" data-genre="Horror">
+            Horror
+        </button>
+
+        <button class="genre" data-genre="Action">
+            Action
+        </button>
+
+        <button class="genre" data-genre="Comedy">
+            Comedy
+        </button>
+
+        <button class="genre" data-genre="Sci-Fi">
+            Sci-Fi
+        </button>
+
+    </section>
+
+
+    <main class="series-container" id="seriesContainer">
+
+        <!-- The Vampire Diaries -->
+        <div class="series-card"
+             data-title="The Vampire Diaries"
+             data-genre="Drama">
+
+            <div class="card-image">
+
+                <img src="jpg/The Vampire Diaries.webp"
+                     alt="The Vampire Diaries">
+
+                <span class="rating">★ 8.4</span>
+
+            </div>
+
+            <div class="card-info">
+
+                <h3>The Vampire Diaries</h3>
+
+                <p>2009 • Drama</p>
+
+                <a href="details1.html?series=vampire-diaries"
+                      class="details-btn">
+                      View Details
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Pretty Little Liars -->
+        <div class="series-card"
+             data-title="Pretty Little Liars"
+             data-genre="Drama">
+
+            <div class="card-image">
+
+                <img src="jpg/Pretty Little Liars.webp"
+                     alt="Pretty Little Liars">
+
+                <span class="rating">★ 7.4</span>
+
+            </div>
+
+            <div class="card-info">
+
+                <h3>Pretty Little Liars</h3>
+
+                <p>2010 • Drama</p>
+
+                <a href="details1.html?series=pretty-little-liars"
+                  class="details-btn">
+                   View Details
+                </a>
+
+            </div>
+
+        </div>
+        
+
+
+        <!-- I Will Find You -->
+        <div class="series-card"
+             data-title="I Will Find You"
+             data-genre="Drama">
+
+            <div class="card-image">
+
+                <img src="jpg/I Will Find You.webp"
+                     alt="I Will Find You">
+
+                <span class="rating">★ 7.8</span>
+
+            </div>
+
+            <div class="card-info">
+
+                <h3>I Will Find You</h3>
+
+                <p>2024 • Drama</p>
+
+               <a href="details1.html?series=i will find you">
+                View details
+               </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Wednesday -->
+        <div class="series-card"
+             data-title="Wednesday"
+             data-genre="Sci-Fi">
+
+            <div class="card-image">
+
+                <img src="jpg/Wednesday.webp"
+                     alt="Wednesday">
+
+                <span class="rating">★ 8.0</span>
+
+            </div>
+
+            <div class="card-info">
+
+                <h3>Wednesday</h3>
+
+                <p>2022 • Sci-Fi</p>
+
+                <a href="details1.html?series=wednesday">
+                    View Details
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Friends -->
+        <div class="series-card"
+             data-title="Friends"
+             data-genre="Comedy">
+
+            <div class="card-image">
+
+                <img src="jpg/friends.webp"
+                     alt="Friends">
+
+                <span class="rating">★ 8.9</span>
+
+            </div>
+
+            <div class="card-info">
+
+                <h3>Friends</h3>
+
+                <p>1994 • Comedy</p>
+
+                <a href="details1.html?series=friends">
+                    View Details
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- The Walking Dead -->
+        <div class="series-card"
+             data-title="The Walking Dead"
+             data-genre="Horror">
+
+            <div class="card-image">
+
+                <img src="jpg/The Walking Dead.webp"
+                     alt="The Walking Dead">
+
+                <span class="rating">★ 8.1</span>
+
+            </div>
+
+            <div class="card-info">
+
+                <h3>The Walking Dead</h3>
+
+                <p>2010 • Horror</p>
+
+                <a href="details.html?series=walking-dead">
+                    View Details
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Money Heist -->
+        <div class="series-card"
+             data-title="Money Heist"
+             data-genre="Action">
+
+            <div class="card-image">
+
+                <img src="jpg/Money Heist.webp"
+                     alt="Money Heist">
+
+                <span class="rating">★ 8.2</span>
+
+            </div>
+
+            <div class="card-info">
+
+                <h3>Money Heist</h3>
+
+                <p>2017 • Action</p>
+
+                <a href="details1.html?series=money-heist">
+                    View Details
+                </a>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- No Results -->
+    <p id="noResults">
+        No series found.
+    </p>
+
+
+    <!-- Contact -->
+    <section class="contact-section" id="contact">
+
+        <div class="contact-content">
+
+            <p class="small-title">CONTACT US</p>
+
+            <h2>Send a Message</h2>
+
+            <p>
+                Have a suggestion? Send us a message.
+            </p>
+
+            <textarea
+                id="message"
+                placeholder="Enter your message..."
+            ></textarea>
+
+            <button id="submitBtn">
+                Submit
+            </button>
+
+            <p id="messageResult"></p>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <p>
+            © 2026 CINEMA+. All Rights Reserved.
+        </p>
+
+        <p>
+            Designed & Developed by
+            <span>Salwa Mohamed</span>
+        </p>
+
+    </footer>
+
+
+    <script src="series.js"></script>
+
+</body>
+</html>
+
