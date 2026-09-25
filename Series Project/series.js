@@ -1,4 +1,4 @@
-const searchInput = document.getElementById("searchInput");
+const searchInput = document.getElementById("seriesSearchInput");
 const searchBtn = document.getElementById("searchBtn");
 
 const genreButtons = document.querySelectorAll(".genre");
