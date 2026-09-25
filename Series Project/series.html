@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>NoCredits — Watch what moves you</title>
+    <title>Series</title>
 
     <link rel="stylesheet" href="series.css">
 
@@ -31,67 +31,43 @@
 
     </nav>
 
+       <div class="search-bar" id="searchBar">
+        <input type="text" id="searchInput" placeholder="Search movies..." autocomplete="off">
+        <button class="search-close" id="searchClose" aria-label="Close search">
+            <i class="fa-solid fa-x"></i>
+        </button>
+    </div>
 
-    <header class="series-header">
-
-        <p class="small-title">NoCredits ـــ Watch what moves you</p>
-
-        <h2>Popular Series</h2>
-
-        <p>
-            Discover the best foreign, horror, action and drama series.
-        </p>
-
-    </header>
-
-
-    <section class="search-section">
-
-        <div class="search-box">
-
-            <input
-                type="text"
-                id="searchInput"
-                placeholder="Search for a series..."
-            >
-
-            <button id="searchBtn">
-                <i class="fa-solid fa-magnifying-glass"></i>
+    <div class="nav-actions">
+        <button class="search-btn" id="searchBtn" aria-label="Toggle search">
+            <i class="fa-solid fa-toggle-on"></i>
             </button>
+        <button class="profile-btn">
+            <i class="fa-solid fa-user"></i>
+        </button>
+    </div>
+</header>
 
+<main>
+
+    <section class="series-header">
+        <div>
+            <p class="small-title">EXPLORE</p>
+            <h1>Series</h1>
+            <p class="description">
+                Discover series from different genres, eras, and worlds.
+            </p>
         </div>
 
-    </section>
+        <div class="filter-container" id="filterContainer">
+            <button class="filter-btn active" data-genre="all">All</button>
+            <button class="filter-btn" data-genre="action">Action</button>
+            <button class="filter-btn" data-genre="sci-fi">Sci-Fi</button>
+            <button class="filter-btn" data-genre="drama">Drama</button>
+            <button class="filter-btn" data-genre="fantasy">Fantasy</button>
+        </div>
+   
 
-
-
-    <section class="genres">
-
-        <button class="genre active" data-genre="All">
-            All
-        </button>
-
-        <button class="genre" data-genre="Drama">
-            Drama
-        </button>
-
-        <button class="genre" data-genre="Horror">
-            Horror
-        </button>
-
-        <button class="genre" data-genre="Action">
-            Action
-        </button>
-
-        <button class="genre" data-genre="Comedy">
-            Comedy
-        </button>
-
-        <button class="genre" data-genre="Sci-Fi">
-            Sci-Fi
-        </button>
-
-    </section>
 
 
     <main class="series-container" id="seriesContainer">
