@@ -1,4 +1,3 @@
-
 const seriesData = {
 
     "vampire-diaries": {
@@ -126,7 +125,7 @@ const seriesData = {
     },
 
 
-    "walking-dead": {
+    "The Walking Dead": {
 
         title: "The Walking Dead",
 
